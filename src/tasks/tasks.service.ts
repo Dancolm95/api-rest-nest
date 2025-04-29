@@ -10,8 +10,8 @@ export class TasksService {
     },
   ];
 
-  getAllTasks(): string {
-    return 'hola mundo';
+  getAllTask(): object {
+    return this.tasks;
   }
   findAll(): object {
     return this.tasks;
