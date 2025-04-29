@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://nestjs.com/img/logo-small.svg" alt="NestJS Logo" width="100" />
+</p>
+
 # CRUD de Tareas - NestJS (MVP)
 
 Este proyecto es un **MVP** (Producto Mínimo Viable) construido con **NestJS** que permite **crear** y **listar** tareas a través de una **API REST**.
@@ -13,8 +17,8 @@ Este proyecto es un **MVP** (Producto Mínimo Viable) construido con **NestJS** 
 Sigue estos pasos para clonar y correr el proyecto:
 
 ```bash
-git clone <URL-DE-TU-REPOSITORIO>
-cd <NOMBRE-DEL-PROYECTO>
+git clone https://github.com/Dancolm95/api-rest-nest
+cd api-rest-nest
 npm install
 npm run start
 ```
@@ -37,7 +41,7 @@ npm run start
 - Validación de campo description.
 - Gestión basica de errores.
 
-## Mejoras Futuras
+## 📈 Mejoras Futuras
 - Actualizar el estado de una tarea.
 - Eliminar tareas.
 - Implementar DTOs y Pipes de validación.
